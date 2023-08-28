@@ -27,7 +27,7 @@ class App extends Component {
   }
   fetchData = () => {
     // this.setState({ isLoading: true });
-    Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vRz-mM19A5wqwFemCoJPBH96JQbqEWYRjzwdvKqBgQ021_Udr_hSMBwqVorECtZWiz86cJZQI8m-yJf/pub?output=csv",
+    Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSru4bgOeoaZ0JnAlMFbz3GN9DxUu4gRm9NXMgGGjXhUse5SDPWjeUChK51egePO1YqDkjFEJyaaHS1/pub?output=csv",
       {
         download: true,
         header: true,

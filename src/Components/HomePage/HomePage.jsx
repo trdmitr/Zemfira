@@ -7,7 +7,7 @@ class HomePage extends Component {
 
     render() {
     // const imgUrl2 = "https://sun9-74.userapi.com/impg/Os89_a2-ESXOQM4Nd75Ra9YXsbDx_NW-2HT22g/Q001Xopq5Vk.jpg?size=1280x817&quality=95&sign=86aaf7802eb6e4fb5d44700170d03b3a&type=album"
-    const imgUrl = "https://sun9-4.userapi.com/impg/agFXpnH-SSa7fQeCL4BUpYD2mY5KUrYufvaHXA/YMv7Pk1yC6Y.jpg?size=860x686&quality=96&sign=8de5affd11c70365fa8139f23c8cab08&type=album"
+    const imgUrl = "https://sun9-54.userapi.com/impg/jP_jmhNKSqg4sl-ohYM37qk-9DxsUrFayDZiNA/dSuGSrIw6Gg.jpg?size=402x604&quality=95&sign=d8692ec606f37137f6a058b158369aae&type=album"
     const imgAlt = "Каверы Подземки"
     // const frontAudio = "https://drive.google.com/uc?export=download&id=1uNmg51HFdA3aI84AtgWYAuM_rTnqoZyS";
     // const imgTzi = "https://sun9-40.userapi.com/impg/MISALnCzbtAXGdxwXPqulc-f9a-JzHxkZHjYnA/UcHxUh-CRM8.jpg?size=600x200&quality=96&sign=c367e03fe8e4d86e0f7fb657fd7ba0e3&type=album"
@@ -22,12 +22,12 @@ class HomePage extends Component {
         
         <div className= {classes.main}>
           
-  <div className= {classes.article}><p >Агата Кристи</p></div>
+  {/* <div className= {classes.article}><p ></p></div> */}
   {/* <div className= {classes.article}><img src={imgUrl2} width={100} alt={imgAlt} />
   </div> */}
   {/* <div className= {classes.article}><audio controls src={frontAudio} type="audio/mpeg" /></div> */}
   <div className= {classes.article}><img src={imgUrl} width={100} alt={imgAlt} /></div>
- <p className={classes.textarea}>Трибьют посвящён дню рождения Глеба Самойлова</p>
+ <p className={classes.textarea}>Трибьют в честь дня рождения Земфиры Рамазановой</p>
   {/* <div className= {classes.article}><img  style={{ marginTop:"1em"}} src={imgTzi} width={100} alt="Каверы Подземки" /> </div> */}
 </div>
       </div>

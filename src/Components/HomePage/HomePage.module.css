@@ -169,7 +169,7 @@
   
   .navLink {
 	position: absolute;
-	padding: 0.1em 2em 0.2em 2em;
+	padding: 0.1em 2em 1em 2em;
 	/* margin-right: 1em; */
 	box-sizing: border-box;
 	top: 92%;
@@ -177,17 +177,23 @@
 	border: 2px solid rgb(83, 3, 7);
 	border-radius: 1em;
 	text-decoration: none;
-	color: var(--colorText);
-	background-color: #8b302f;
+	/* -webkit-text-stroke: 1.5px rgb(3 47 83); */
+	color:whitesmoke;
+	background-color: var(--colorHeader);
   }
   .textarea {
+	position: absolute;
+	top: 68%;
 	color: var(--colorText);
 	font-size: 1.5em;
+	font-weight: bold;
+	-webkit-text-stroke: 1.5px rgb(3 47 83);
 	text-align: center;
-	background-color: var(--tributeAfterBefore);
+	background-color: var(--colorHeader);
 	border: 3px solid rgb(83, 3, 7);
 	border-radius: 0.4em;
 	box-shadow: #437baf;
 	margin: 0.25em;
+	margin-bottom: 6em;
 	padding: 0.25em;
   }

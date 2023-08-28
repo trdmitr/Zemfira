@@ -69,9 +69,9 @@
     
     /* padding: 0.2rem 1.3rem; */
     color: var(--colorText);
-    background-color: var(--tributeAfterBefore);
+    background-color: var(--colorHeader);
     border-radius: 0.5rem;
-    border: 3px solid rgb(83, 3, 7);
+    /* border: 3px solid rgb(83, 3, 7); */
     /* border-bottom: 4px solid #b2b1b1; */
     /* text-shadow: -1px -1.6px 0px #151616; */
     text-shadow: var(--textShadow);
@@ -107,11 +107,10 @@
     color: var(--colorText);
     /* padding: 2px 6px; */
     /* padding: 0 1em 0 1em; */
-    background-color: var(--colorBackgroundAll);
+    background-color: var(--colorHeader);
     border-radius: 0.5rem;
     /* border: 3px solid rgb(3 47 83); */
     margin: 2em;
-    background-color: var(--tributeAfterBefore);
     padding: 0 calc(1em + 1vmin) 0 calc(1em + 1vmin);
     border-radius: 0.5em;
     -webkit-clip-path: polygon(0 5%, 55% 5%, 94% 3%, 100% 91%, 60% 100%, 38% 100%, 0 94%);
@@ -129,8 +128,7 @@
     /* background-color: var(--colorBackgroundAll); */
     border-radius: 0.5rem;
     /* border: 3px solid rgb(3 47 83); */
-    -webkit-clip-path: polygon(0 5%, 55% 5%, 94% 3%, 100% 91%, 60% 100%, 38% 100%, 0 94%);
-    clip-path: polygon(0 5%, 55% 5%, 94% 3%, 100% 91%, 60% 100%, 38% 100%, 0 94%);
+    
     border-radius: 0.5em;
     padding: 0 calc(1em + 1vmin) 0 calc(1em + 1vmin);
     text-shadow: var(--textShadow);
@@ -199,7 +197,7 @@
     color: aliceblue;
     top: 1%;
     left: 78%;
-    background-color: var(--tributeAfterBefore);
+    background-color: var(--colorHeader);
     border-radius: 6%;
     padding: 0.2em;
     cursor: pointer;
