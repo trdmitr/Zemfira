@@ -33,7 +33,11 @@ class CaverPage extends Component {
                     </Link>
                   ))}
                  
-                </div><Player songs = {songs}/>
+                </div>
+                <a style={{color: "white"}} href="https://trdmitr.github.io/alltributes/" target="_blank" rel="noopener noreferrer">
+        <button >Все трибьюты </button>
+      </a>
+                <Player songs = {songs}/>
               </div>
               <Link to="/"><button className= {classes.btnHome}>HOME</button></Link>
             </div>
