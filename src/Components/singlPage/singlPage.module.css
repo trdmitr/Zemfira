@@ -124,7 +124,7 @@
     font-size: 1.5rem;
     text-align: center;
     color: var(--colorText);
-    background-color: var(--tributeAfterBefore);
+    background-color: var(--colorHeader);
     /* background-color: var(--colorBackgroundAll); */
     border-radius: 0.5rem;
     /* border: 3px solid rgb(3 47 83); */
