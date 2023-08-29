@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Zemfira/static/css/main.3b7d14e8.css",
+    "main.css": "/Zemfira/static/css/main.83db4d9d.css",
     "main.js": "/Zemfira/static/js/main.fb7e640c.js",
     "index.html": "/Zemfira/index.html",
-    "main.3b7d14e8.css.map": "/Zemfira/static/css/main.3b7d14e8.css.map",
+    "main.83db4d9d.css.map": "/Zemfira/static/css/main.83db4d9d.css.map",
     "main.fb7e640c.js.map": "/Zemfira/static/js/main.fb7e640c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b7d14e8.css",
+    "static/css/main.83db4d9d.css",
     "static/js/main.fb7e640c.js"
   ]
 }
