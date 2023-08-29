@@ -71,7 +71,7 @@
     color: var(--colorText);
     background-color: var(--colorHeader);
     border-radius: 0.5rem;
-    /* border: 3px solid rgb(83, 3, 7); */
+    border: 3px solid rgb(223, 218, 218);
     /* border-bottom: 4px solid #b2b1b1; */
     /* text-shadow: -1px -1.6px 0px #151616; */
     text-shadow: var(--textShadow);
